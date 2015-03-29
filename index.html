@@ -67,6 +67,26 @@
      })(window,document,'script','dataLayer','GTM-5BJ9DS');</script>
     <!-- End Google Tag Manager -->
 
+    <!-- Facebook SDK -->
+    <script>
+     window.fbAsyncInit = function() {
+       FB.init({
+         appId      : '282067105250201',
+         xfbml      : true,
+         version    : 'v2.3'
+       });
+     };
+
+     (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "//connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!-- End Facebook SDK -->
+
     <div class='text-holder container jumbotron'>
       <h1 class="gay-rights clearfix">Support Gay Rights</h1>
       <h1 class="gay-rights clearfix">Vote Democratic</h1>
